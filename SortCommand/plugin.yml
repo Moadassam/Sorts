@@ -1,0 +1,28 @@
+name: SortCommand
+version: 0.1
+main: SortCommand\Moadassam\Command
+api: 3.0.0
+author: Moadassam
+
+commands:
+  sort:
+    description: Ouvre l'interface des sorts utilisable (Plugin By Moadassam)
+  sorthelp:
+    description: Plugin by Moadassam ! If you have a problem, contact me on Discord (Moadassam#1417)
+
+permissions:
+  sort.command:
+    description: "Utiliser la commande /sort"
+    default: op
+  foudre.use:
+    description: "Utiliser le sort de Foudre"
+    default: op
+  minerais.use:
+    description: "Utiliser le sort de Minerais"
+    default: op
+  milleoiseaux.use:
+    description: "Utiliser le sort Mille Oiseaux"
+    default: op
+  ringan.use:
+    description: "Utiliser le sort Ringan"
+    default: op
